@@ -1,0 +1,84 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pydoc
+
+# Virtual environment
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# System files
+*.tmp
+*.swp
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Data files
+data/
+*.csv
+*.xls
+*.xlsx
+
+# TensorFlow and related library files
+tensorflow_cc.2.dylib
+tensorflow/
+keras/
+tensorflow_model/
+
+# Additional libraries
+*.pkl
+*.h5
+
+# Git LFS files
+*.gitattributes
+
+# Ignore environment configuration
+*.env
+
+# Ignore files created by IDEs/editors
+*.sublime-project
+*.sublime-workspace
+*.kate-swp
+*.komodoproject
+
+# Node.js (if used for any front-end or related work)
+node_modules/
+
+# Python packages (to avoid including packages in your virtual environment)
+*.pyc
+*.pyo
+*.pyd
+*.egg-info
+*.eggs
+pip-log.txt
+pip-delete-this-directory.txt
